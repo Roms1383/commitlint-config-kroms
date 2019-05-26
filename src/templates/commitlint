@@ -1,0 +1,21 @@
+module.exports = {
+  rules: {
+    'type-enum': [2, 'always', [<%- types %>]],
+    'body-leading-blank': [2, 'always'],
+    'footer-leading-blank': [2, 'always'],
+    'header-max-length': [2, 'always', 72],
+    'subject-case': [2, 'always', ['sentence-case']],
+    'subject-empty': [2, 'never'],
+    'scope-empty': [2, 'always'],
+    'subject-full-stop': [2, 'never', ['.']],
+    'type-case': [2, 'always', 'lower-case'],
+    'type-empty': [2, 'never']
+  },
+  parserPreset: {
+    parserOpts: {
+      headerPattern: /^(:\w*:)\s((?:.*(?=\())|.*)(?:\(#(\d*)\))?/,
+      headerCorrespondence: ['type', 'subject', 'ticket'],
+      noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING']
+    }
+  }
+}
