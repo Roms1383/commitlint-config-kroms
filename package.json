@@ -4,6 +4,7 @@
   "author": "Romain KELIFA <romain.kelifa@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "files": ["index.js"],
   "repository": {
     "type": "git",
     "url": "https://github.com/Roms1383/commitlint-config-kroms.git"
