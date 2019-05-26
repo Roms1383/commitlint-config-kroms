@@ -17,6 +17,7 @@ jobs:
       script: yarn eslint '*.js'
     - stage: test
       install: true
+      before_script: yarn global add codacy-coverage
       script: yarn jest --coverage && cat ./coverage/lcov.info | codacy-coverage
     - stage: release
       install: true
