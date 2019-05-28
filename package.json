@@ -31,7 +31,7 @@
     "request-promise-native": "^1.0.7",
     "semantic-release": "^15.13.12",
     "semantic-release-gitmoji": "^1.3.0",
-    "semantic-release-kroms": "^1.0.5",
+    "semantic-release-kroms": "^1.0.9",
     "shelljs": "^0.8.3"
   },
   "peerDependencies": {
