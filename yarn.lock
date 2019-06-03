@@ -682,6 +682,11 @@
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
   integrity sha512-SOhuU4wNBxhhTHxYaiG5NY4HBhDIDnJF60GU+2LqHAdKKer86//e4yg69aENCtQ04n0ovz+tq2YPME5t5yp4pw==
 
+"@yarnpkg/lockfile@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
+  integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
+
 JSONStream@^1.0.4, JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
@@ -2211,6 +2216,11 @@ dotenv@^5.0.1:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-5.0.1.tgz#a5317459bd3d79ab88cff6e44057a6a3fbb1fcef"
   integrity sha512-4As8uPrjfwb7VXC+WnLCbXK7y+Ueb2B3zgNCePYfhxS1PYeaO1YTeplffTEcbfLhvFNGLAz90VvJs9yomG7bow==
 
+dotenv@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.0.0.tgz#ed310c165b4e8a97bb745b0a9d99c31bda566440"
+  integrity sha512-30xVGqjLjiUOArT4+M5q9sYdvuR4riM6yK9wMcas9Vbp6zZa+ocC9dp6QoftuhTPhFAiLK/0C5Ni2nou/Bk8lg==
+
 duplexer2@~0.1.0:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer2/-/duplexer2-0.1.4.tgz#8b12dab878c0d69e3e7891051662a32fc6bddcc1"
@@ -2964,18 +2974,21 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-generator-kroms@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/generator-kroms/-/generator-kroms-1.3.2.tgz#d0eb151a24c1975f11dc6a067c5e49d2ba4d740e"
-  integrity sha512-eLxZy5d7JgzMOJcYpVoZA+iUPySQ+/4jLlKc3MFkBRUwdB6SSG2sjaO8ZB4V4ATmrkWX+sYLc79L5Xuy9kvToQ==
+generator-kroms@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/generator-kroms/-/generator-kroms-1.6.1.tgz#ada8d7116b1f86758f488414b6dd3b8849cf0c4a"
+  integrity sha512-YhYbaoGFnv7x/fGbgzvrFw+dSBL0rwR0Yl1EgEzl9tiCDWwo7K5GXYAbPTRa1pvfx7i2vblajttFfxb7MUrgaQ==
   dependencies:
+    "@yarnpkg/lockfile" "^1.1.0"
     boxen "^4.0.0"
+    dotenv "^8.0.0"
     execa "^1.0.0"
     fixed-width-string "^1.0.0"
     generator-license "^5.4.0"
     ramda "^0.26.1"
     readdirp "^3.0.1"
     request-promise-native "^1.0.7"
+    semver "^6.1.1"
     yeoman-generator "^4.0.1"
     yosay "^2.0.2"
 
@@ -7626,6 +7639,11 @@ semver@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.0.tgz#e95dc415d45ecf03f2f9f83b264a6b11f49c0cca"
   integrity sha512-kCqEOOHoBcFs/2Ccuk4Xarm/KiWRSLEX9CAZF8xkJ6ZPlIoTZ8V5f7J16vYLJqDbR7KrxTJpR2lqjIEm2Qx9cQ==
+
+semver@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.1.tgz#53f53da9b30b2103cd4f15eab3a18ecbcb210c9b"
+  integrity sha512-rWYq2e5iYW+fFe/oPPtYJxYgjBm8sC4rmoGdUOgBB7VnwKt6HrL793l2voH1UlsyYZpJ4g0wfjnTEO1s1NP2eQ==
 
 semver@~5.3.0:
   version "5.3.0"
