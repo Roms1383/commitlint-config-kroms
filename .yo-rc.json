@@ -1,6 +1,7 @@
 {
   "generator-kroms": {
     "year": "2019",
-    "coverage": false
+    "coverage": false,
+    "use-aws-lambda": false
   }
 }
