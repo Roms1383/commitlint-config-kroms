@@ -36,7 +36,7 @@
     "shelljs": "^0.8.3"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^8.0.0"
+    "@commitlint/cli": "^8.2.0"
   },
   "scripts": {
     "lint": "yarn eslint '**/*.js' && yarn remark .",
