@@ -11,8 +11,8 @@
   "repository": "https://github.com/Roms1383/commitlint-config-kroms.git",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
+    "@semantic-release/npm": "^7.0.0",
     "@semantic-release/github": "^7.0.0",
-    "@semantic-release/npm": "^5.3.1",
     "chalk": "^2.4.2",
     "commitlint-config-kroms": "^1.1.7",
     "ejs": "^3.0.0",
