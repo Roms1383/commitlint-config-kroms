@@ -15,7 +15,7 @@
     "@semantic-release/npm": "^7.0.0",
     "axios": "^0.23.0",
     "chalk": "^4.0.0",
-    "commitlint-config-kroms": "^1.1.8",
+    "commitlint-config-kroms": "^2.0.0",
     "ejs": "^3.0.0",
     "eslint": "^7.0.0",
     "eslint-config-kroms": "^1.1.22",
