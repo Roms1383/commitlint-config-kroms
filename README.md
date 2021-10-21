@@ -41,4 +41,4 @@ yarn generate
 
 *****
 
-_Romain KELIFA - MIT - 2019_
+_Romain KELIFA - MIT - 2019-2021_
