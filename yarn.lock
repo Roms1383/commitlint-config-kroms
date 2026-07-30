@@ -3222,9 +3222,9 @@ escodegen@^2.0.0:
     source-map "~0.6.1"
 
 eslint-config-kroms@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-kroms/-/eslint-config-kroms-2.0.2.tgz#911175974f8ffa889be8376f038eaae0382c526c"
-  integrity sha512-lcjgkihfu8CR9XhIZc9XoVJQAV43bXXd3OoagLheIKN0oFM54+N1dcVsHgYOrUnxaIByfcgbme2Gv1E506QwNA==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-kroms/-/eslint-config-kroms-2.0.5.tgz#c0f3dbc666a55083069c1758a85714ff4528470b"
+  integrity sha512-wq/C5159yOONYICEvNIBUk1SHNoPYYvlD1LLJCzv+9PBMNwfrRwEGRq6vS4Z+2XHLOm+feA3yhK0dYSE+Fm48g==
 
 eslint-config-standard@^16.0.3:
   version "16.0.3"
